@@ -87,15 +87,15 @@ var tempData = {}
 
 var autoBuyEnabled = true
 
-const updateSpeed = 200
+const updateSpeed = 20
 const baseLifespan = 365 * 70
-const baseGameSpeed = 40
+const baseGameSpeed = 4
 const heroIncomeMult = 2500000000000000000
 
 const permanentUnlocks = ["Quick task display", "Dark Matter", "Dark Matter Skills", "Challenges"]
 
 const jobBaseData = {
-    "Beggar": { name: "Beggar", maxXp: 50, income: 50, heroxp: 36 },
+    "Beggar": { name: "Beggar", maxXp: 50, income: 5, heroxp: 36 },
     "Farmer": {name: "Farmer", maxXp: 100, income: 9, heroxp: 37 },
     "Fisherman": { name: "Fisherman", maxXp: 200, income: 15, heroxp: 38 },
     "Miner": { name: "Miner", maxXp: 400, income: 40, heroxp: 39 },
